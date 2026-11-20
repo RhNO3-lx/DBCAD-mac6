@@ -1,0 +1,40 @@
+system,workflow,n,trials_with_exception,median_trial_s,median_input_tokens,median_cached_tokens,median_output_tokens
+Antigravity + Gemini 3.8 Flash,create_edit,30,0,975.48695,6279030.5,5740407.0,122799.5
+Antigravity + Gemini 3.8 Flash,create,30,0,910.2600365000001,5810063.5,5377162.5,109897.5
+Antigravity + Gemini 3.8 Flash,image_to_cad,40,0,1661.0325619999999,17417818.0,16077896.0,155959.0
+Claude Code + Claude Fable 5.1,create_edit,30,2,1119.8414579999999,649476.0,536622.5,88639.5
+Claude Code + Claude Fable 5.1,create,30,0,1016.7911745,446804.0,353702.5,79188.0
+Claude Code + Claude Fable 5.1,image_to_cad,40,0,2032.821453,2143752.0,1732007.0,151304.0
+Claude Code + Claude Opus 5,create_edit,30,1,1231.3429225,1991890.5,1875877.0,92320.0
+Claude Code + Claude Opus 5,create,30,0,1268.2065120000002,2190418.0,2077108.0,101530.5
+Claude Code + Claude Opus 5,image_to_cad,40,0,3127.6799425,17435424.5,17127676.0,224957.5
+Claude Code + Claude Opus 5.5,create_edit,30,1,1560.7502220000001,2451846.5,2267719.0,136409.5
+Claude Code + Claude Opus 5.5,create,30,0,1522.5225005,1927578.5,1772449.0,133374.5
+Claude Code + Claude Opus 5.5,image_to_cad,40,0,1749.5514844999998,6149692.5,5945009.0,153746.5
+Codex + GPT-5.6 Sol,create_edit,30,0,839.084913,2245649.5,2172934.0,43334.5
+Codex + GPT-5.6 Sol,create,30,0,739.536568,2017605.5,1951394.5,40452.0
+Codex + GPT-5.6 Sol,image_to_cad,40,0,1144.860756,4295025.0,4183665.5,52988.5
+Codex + GPT-5.6 Terra,create_edit,30,0,993.7615525,2650728.0,2579317.5,57413.5
+Codex + GPT-5.6 Terra,create,30,0,930.8417245,2743768.0,2650343.0,53843.0
+Codex + GPT-5.6 Terra,image_to_cad,40,1,1509.8384335,7667891.5,7519445.5,79361.0
+Codex + GPT-6 Astra,create_edit,30,0,687.8028194999999,508428.0,457138.5,24129.0
+Codex + GPT-6 Astra,create,30,0,638.6542595000001,546059.5,503100.0,23169.5
+Codex + GPT-6 Astra,image_to_cad,40,0,1032.61402,1320172.5,1240719.5,37270.0
+Grok Build + Grok 4.6,create_edit,30,0,1494.2875645,2451423.0,2165632.0,89283.5
+Grok Build + Grok 4.6,create,30,0,1564.1352685000002,3121372.5,2840192.0,90399.0
+Grok Build + Grok 4.6,image_to_cad,40,0,2182.1202885000002,8408577.5,8190912.0,117536.5
+Grok Build + Grok 4.7,create_edit,30,0,2314.661829,5578262.0,4883840.0,42050.5
+Grok Build + Grok 4.7,create,30,0,2043.9341239999999,5620861.5,5264960.0,36324.5
+Grok Build + Grok 4.7,image_to_cad,40,0,3497.7322894999998,13213304.0,12442432.0,60129.0
+mini-swe-agent + Claude Opus 5.5,create_edit,30,1,1431.6308105,2076805.0,1934923.0,121394.5
+mini-swe-agent + Claude Opus 5.5,create,30,4,1253.347789,1443126.5,1344166.0,104557.0
+mini-swe-agent + Claude Opus 5.5,image_to_cad,40,2,1614.60194,6229558.5,6004420.5,142824.5
+mini-swe-agent + Gemini 3.8 Flash,create_edit,30,0,1750.9476815,10774807.0,10124617.0,166865.5
+mini-swe-agent + Gemini 3.8 Flash,create,30,0,1679.8222,10068976.5,9162987.5,159891.0
+mini-swe-agent + Gemini 3.8 Flash,image_to_cad,40,6,3081.0637125000003,28617620.0,26796784.0,177049.0
+mini-swe-agent + Kimi K3,create_edit,30,0,1309.5533375,728418.5,608128.0,61957.0
+mini-swe-agent + Kimi K3,create,30,0,1052.277192,956882.5,869635.5,64494.0
+mini-swe-agent + Kimi K3,image_to_cad,40,4,2872.969169,6177690.5,5717608.5,128823.0
+mini-swe-agent + Muse Spark 1.3,create_edit,30,0,1937.7690935,3828384.5,3455225.0,215860.0
+mini-swe-agent + Muse Spark 1.3,create,30,0,1534.6026685000002,2792776.5,2575355.5,201923.5
+mini-swe-agent + Muse Spark 1.3,image_to_cad,40,1,3464.8365080000003,17720788.0,16406932.5,152950.0

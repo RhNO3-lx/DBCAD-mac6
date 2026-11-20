@@ -11,3 +11,10 @@
 3. 打开解出的 DBCAD-mac6，按 doc/上手指南.md 安装。运行 Install-DBCAD.command 后，再运行 Launch-DBCAD.command。
 
 后续交接可以在这个私有仓库创建新 Release，把新版压缩包和对应校验文件放到 Assets。
+
+## 科研实验
+
+本次实验使用 [mac6-b715e61 交接包](https://github.com/Zhang-Zhengyuan/DBCAD-mac6/releases/tag/mac6-b715e61)。[实验目录](output/) 收录研究报告、复算脚本、逐条数据和 CAD 样本。
+
+- [CAD Agent 重复观测研究与复算说明](output/observation-study/README.md)
+- [三方块装配预实验](output/harness-pilot/) 和 [研究起步报告](output/pdf/DBCAD-Harness-研究起步.pdf)
