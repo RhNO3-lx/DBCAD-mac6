@@ -1,0 +1,5 @@
+model,build_pct,geometry_checks_pct,simulation_or_probes_pct,preview_render_pct,concurrent_pct
+Astra,11.794,2.86,81.282,1.023,3.041
+Kimi,11.038,6.384,81.133,1.402,0.043
+Fable,9.536,4.389,84.992,0.943,0.14
+Grok,16.787,6.228,75.082,1.429,0.473

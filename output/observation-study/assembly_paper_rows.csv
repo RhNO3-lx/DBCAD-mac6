@@ -1,0 +1,51 @@
+task,system,wall_minutes,reported_tokens_thousands,exported
+rcb_000052132,Codex + GPT-5.5,13.8,23.9,True
+rcb_000052132,Claude Code + Opus 4.8,59.4,57.8,True
+rcb_000112974,Codex + GPT-5.5,10.3,20.9,True
+rcb_000112974,Claude Code + Opus 4.8,15.0,21.5,True
+rcb_000133697,Codex + GPT-5.5,13.6,25.2,True
+rcb_000133697,Claude Code + Opus 4.8,47.2,58.5,True
+rcb_000198365,Codex + GPT-5.5,13.6,20.6,True
+rcb_000198365,Claude Code + Opus 4.8,42.7,41.5,True
+rcb_000300010,Codex + GPT-5.5,12.4,24.3,False
+rcb_000300010,Claude Code + Opus 4.8,48.4,67.3,True
+rcb_000304481,Codex + GPT-5.5,7.8,17.3,True
+rcb_000304481,Claude Code + Opus 4.8,17.8,50.3,True
+rcb_000315240,Codex + GPT-5.5,14.1,20.9,True
+rcb_000315240,Claude Code + Opus 4.8,27.5,37.7,True
+rcb_000330472,Codex + GPT-5.5,11.2,23.1,True
+rcb_000330472,Claude Code + Opus 4.8,33.9,39.5,True
+rcb_000342241,Codex + GPT-5.5,13.5,26.0,True
+rcb_000342241,Claude Code + Opus 4.8,36.9,53.3,True
+rcb_000348219,Codex + GPT-5.5,11.7,24.8,True
+rcb_000348219,Claude Code + Opus 4.8,46.6,52.7,True
+rcb_000352539,Codex + GPT-5.5,11.4,26.2,True
+rcb_000352539,Claude Code + Opus 4.8,,,True
+rcb_000362639,Codex + GPT-5.5,12.7,23.3,True
+rcb_000362639,Claude Code + Opus 4.8,28.9,44.3,True
+rcb_000371197,Codex + GPT-5.5,13.5,26.5,True
+rcb_000371197,Claude Code + Opus 4.8,25.6,40.6,True
+rcb_000398895,Codex + GPT-5.5,6.2,17.0,True
+rcb_000398895,Claude Code + Opus 4.8,29.7,55.0,True
+rcb_000398996,Codex + GPT-5.5,9.3,24.1,True
+rcb_000398996,Claude Code + Opus 4.8,28.6,39.7,True
+rcb_000514100,Codex + GPT-5.5,10.2,20.1,True
+rcb_000514100,Claude Code + Opus 4.8,,,True
+rcb_000529447,Codex + GPT-5.5,14.4,29.1,True
+rcb_000529447,Claude Code + Opus 4.8,27.4,41.2,True
+rcb_000539368,Codex + GPT-5.5,10.5,22.7,True
+rcb_000539368,Claude Code + Opus 4.8,20.6,42.2,True
+rcb_000540054,Codex + GPT-5.5,14.3,26.7,True
+rcb_000540054,Claude Code + Opus 4.8,22.8,51.8,True
+rcb_000575344,Codex + GPT-5.5,12.3,27.8,True
+rcb_000575344,Claude Code + Opus 4.8,41.7,56.2,True
+rcb_000580852,Codex + GPT-5.5,9.2,22.2,True
+rcb_000580852,Claude Code + Opus 4.8,32.0,72.3,True
+rcb_000613854,Codex + GPT-5.5,13.8,29.0,True
+rcb_000613854,Claude Code + Opus 4.8,15.7,26.8,True
+rcb_000627090,Codex + GPT-5.5,13.7,29.9,True
+rcb_000627090,Claude Code + Opus 4.8,36.4,48.7,True
+rcb_000631731,Codex + GPT-5.5,14.7,30.4,True
+rcb_000631731,Claude Code + Opus 4.8,22.6,63.5,True
+rcb_000633471,Codex + GPT-5.5,14.8,30.2,True
+rcb_000633471,Claude Code + Opus 4.8,18.6,21.8,False

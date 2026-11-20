@@ -1,0 +1,60 @@
+{
+  "source_baseline": "b715e61",
+  "storage": "MemoryV1Store",
+  "llm_calls": 0,
+  "target_gap_mm": 2.0,
+  "tolerance_mm": 0.01,
+  "trials": [
+    {
+      "collaborator_moved": "none",
+      "first_publish_http": 200,
+      "admission_on_rejection": null,
+      "original_x_offset_mm": -8.0,
+      "old_offset_on_current_scene_signed_gap_mm": 2.0,
+      "verified_x_offset_mm": -8.0,
+      "acis_distance_mm": 2.0,
+      "interference": false,
+      "non_target_components_preserved": true,
+      "a_yz_preserved": true,
+      "versions": [
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "collaborator_moved": "C",
+      "first_publish_http": 409,
+      "admission_on_rejection": "dependency_recheck_required",
+      "original_x_offset_mm": -8.0,
+      "old_offset_on_current_scene_signed_gap_mm": 2.0,
+      "verified_x_offset_mm": -8.0,
+      "acis_distance_mm": 2.0,
+      "interference": false,
+      "non_target_components_preserved": true,
+      "a_yz_preserved": true,
+      "versions": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "collaborator_moved": "B",
+      "first_publish_http": 409,
+      "admission_on_rejection": "dependency_recheck_required",
+      "original_x_offset_mm": -8.0,
+      "old_offset_on_current_scene_signed_gap_mm": -3.0,
+      "verified_x_offset_mm": -3.0,
+      "acis_distance_mm": 2.0,
+      "interference": false,
+      "non_target_components_preserved": true,
+      "a_yz_preserved": true,
+      "versions": [
+        3,
+        4,
+        5
+      ]
+    }
+  ]
+}

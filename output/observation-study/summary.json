@@ -1,0 +1,166 @@
+{
+  "RealCADBench": {
+    "Claude Code + Opus 4.8": {
+      "timed_trials": 23,
+      "mean_minutes": 31.565217391304348,
+      "median_minutes": 28.9,
+      "mean_reported_tokens_k": 47.13913043478261
+    },
+    "Codex + GPT-5.5": {
+      "timed_trials": 25,
+      "mean_minutes": 12.12,
+      "median_minutes": 12.7,
+      "mean_reported_tokens_k": 24.488
+    }
+  },
+  "FunCAD_figure9b": [
+    {
+      "model": "Astra",
+      "build_pct": 11.794,
+      "geometry_checks_pct": 2.86,
+      "simulation_or_probes_pct": 81.282,
+      "preview_render_pct": 1.023,
+      "concurrent_pct": 3.041
+    },
+    {
+      "model": "Kimi",
+      "build_pct": 11.038,
+      "geometry_checks_pct": 6.384,
+      "simulation_or_probes_pct": 81.133,
+      "preview_render_pct": 1.402,
+      "concurrent_pct": 0.043
+    },
+    {
+      "model": "Fable",
+      "build_pct": 9.536,
+      "geometry_checks_pct": 4.389,
+      "simulation_or_probes_pct": 84.992,
+      "preview_render_pct": 0.943,
+      "concurrent_pct": 0.14
+    },
+    {
+      "model": "Grok",
+      "build_pct": 16.787,
+      "geometry_checks_pct": 6.228,
+      "simulation_or_probes_pct": 75.082,
+      "preview_render_pct": 1.429,
+      "concurrent_pct": 0.473
+    }
+  ],
+  "FunCAD_pdf_sha256": "9492b9d46ed7d9c1f20c89cd23804903a4ae3a7abe4b3730947a3bf76cccdcd6",
+  "Parametric_CAD_Bench_v3": {
+    "full_table_rows": 1300,
+    "geometry_open": {
+      "runs": 30,
+      "runs_with_open": 29,
+      "calls": 79,
+      "calls_nonzero_exit": 15,
+      "union_s": 39.0,
+      "agent_s": 31677.6439743042,
+      "pooled_pct": 0.12311521662291375,
+      "median_task_pct": 0.11690416725235003,
+      "tool_results": 2671,
+      "raw_receipt_cl100k": 27849,
+      "all_receipt_cl100k": 663994,
+      "pooled_receipt_pct": 4.194164405100046,
+      "median_task_receipt_pct": 3.5447315216755184,
+      "reported_input": 207760997,
+      "reported_cached": 189043881,
+      "reported_output": 4134588,
+      "reported_cost_usd": 43.720833075
+    },
+    "image_returns": {
+      "Codex + GPT-5.6 Sol": {
+        "n": 30,
+        "runs_with_image": 4,
+        "images": 14,
+        "repeat_file": 0,
+        "repeat_pixels": 0
+      },
+      "Codex + GPT-5.6 Terra": {
+        "n": 30,
+        "runs_with_image": 0,
+        "images": 0,
+        "repeat_file": 0,
+        "repeat_pixels": 0
+      },
+      "Codex + GPT-6 Astra": {
+        "n": 30,
+        "runs_with_image": 21,
+        "images": 25,
+        "repeat_file": 0,
+        "repeat_pixels": 0
+      }
+    }
+  },
+  "CADGenBench": {
+    "stored_iso_pngs": 2188,
+    "eligible_feedback": 1852,
+    "failed_or_skipped_auto_render": 667,
+    "failed_auto_render_with_other_images": 22,
+    "matched": 1852,
+    "unmatched_receipts": 0,
+    "repeats": 705,
+    "repeated_image_and_validation": 698,
+    "paired_step": 1612,
+    "source_hits": 477,
+    "source_hit_file_matches": 432,
+    "source_hit_pixel_matches": 432,
+    "execution_status_slices": {
+      "SUCCESS": {
+        "images": 1431,
+        "repeats": 338
+      },
+      "FAILED": {
+        "images": 421,
+        "repeats": 367
+      }
+    },
+    "repeats_on_consecutive_turns": 612,
+    "unique_transcripts": 868,
+    "deduplicated_transcripts_sensitivity": [
+      705,
+      1852
+    ],
+    "validation_text_replay": {
+      "validation_reports": 2519,
+      "validation_true": 1854,
+      "validation_references": 765,
+      "all_validation_body_tokens": 143237,
+      "repeated_valid_body_tokens": 41452,
+      "fresh_feedback_text_before": 2003924,
+      "fresh_feedback_text_after": 1967827,
+      "saved_pct": 1.8013158183643692,
+      "repeated_body_pct_of_fresh_feedback_text": 2.068541521534749
+    },
+    "runs": 869,
+    "fixtures": 84,
+    "runs_with_matched": 651,
+    "runs_with_repeat": 244,
+    "repeat_pct": 38.06695464362851,
+    "equal_run_mean_pct": 19.201493399865875,
+    "median_observed_run_pct": 0.0,
+    "fixture_cluster_percentile95_pct": [
+      34.00229357798165,
+      42.044257112750266
+    ],
+    "runs_without_other_images_after_failed_auto_render_sensitivity": [
+      702,
+      1841
+    ],
+    "first_duplicate_verified_by_download": [
+      "baselines/baseline_v1_claude_fable_5_20260610_091106/claude-fable-5/shards/shard-000/20260610_091209_claude-fable-5/101/turn_5/auto_render_iso.png",
+      "baselines/baseline_v1_claude_fable_5_20260610_091106/claude-fable-5/shards/shard-000/20260610_091209_claude-fable-5/101/turn_6/auto_render_iso.png"
+    ]
+  },
+  "CADWorld": {
+    "tasks": 25,
+    "seeds": [
+      "freecad-assemble-003",
+      "freecad-assemble-005",
+      "freecad-assemble-016"
+    ],
+    "native_assembly_documents_checked": 6,
+    "revision": "fa02aa03b944daf2ae5b23e56d135bb7cbb75994"
+  }
+}
