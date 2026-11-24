@@ -7,6 +7,7 @@ from pathlib import Path
 import FreeCAD as App
 import Part
 import AssemblyApp  # registers the native assembly document type
+import JointObject  # registers the distance and grounded joints
 
 
 HERE = Path(__file__).resolve().parent
@@ -64,8 +65,7 @@ def make_plate(directory, linked):
         result = doc.addObject("Part::Cut", "DrilledPlate")
         result.Base, result.Tool = plate, tool
         doc.recompute()
-        if App.GuiUp:
-            plate.ViewObject.Visibility = tool.ViewObject.Visibility = False
+        plate.Visibility = tool.Visibility = False
         name = "linked" if linked else "fixed"
         doc.saveAs(str(directory / f"plate-{name}.FCStd"))
     finally:
@@ -120,10 +120,6 @@ if __name__ == "__main__":
         directory.mkdir(parents=True, exist_ok=True)
         if any(directory.iterdir()):
             parser.error("--generate requires an empty output directory")
-        import FreeCADGui as Gui
-        Gui.showMainWindow()  # preserve native view properties when saving
-    import JointObject  # bind the joint proxies after GUI initialization, when requested
-    if args.generate:
         for distance in (5, 8):
             make_assembly(directory, distance)
         for linked in (True, False):

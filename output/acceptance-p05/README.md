@@ -23,7 +23,7 @@ diff assembly_results.json /tmp/dbcad-assembly.json
 
 ## 独立重开、求解与量面
 
-本轮使用 FreeCAD 1.1.3 的原生 Python、Assembly 和 Part 模块。以下为 macOS 官方发行包的路径。其他系统可使用能导入同版本 FreeCAD、AssemblyApp、JointObject、Part 的 Python。重生成还需 FreeCADGui。
+本轮使用 FreeCAD 1.1.3 的原生 Python、Assembly 和 Part 模块。以下为 macOS 官方发行包的路径。其他系统可使用能导入同版本 FreeCAD、AssemblyApp、JointObject、Part 的 Python。建模、求解和测量均可无窗口运行。
 
 ```sh
 FC_RES="/Applications/FreeCAD.app/Contents/Resources"
